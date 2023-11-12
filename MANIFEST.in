@@ -1,0 +1,11 @@
+include nicks_dash_components/nicks_dash_components.min.js
+include nicks_dash_components/nicks_dash_components.min.js.map
+include nicks_dash_components/async-*.js
+include nicks_dash_components/async-*.js.map
+include nicks_dash_components/*-shared.js
+include nicks_dash_components/*-shared.js.map
+include nicks_dash_components/metadata.json
+include nicks_dash_components/package-info.json
+include README.md
+include LICENSE
+include package.json

@@ -1,0 +1,35 @@
+/*body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}*/
+
+.horizontal-selection {
+    width: 400px;
+    height: 50px;
+    background-color: #e0e0e0;
+    position: relative;
+    cursor: col-resize;
+    overflow: hidden; /* Ensure the selection area stays within the box */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.selected-area {
+    position: absolute;
+    background-color: rgba(0, 128, 255, 0.5);
+    height: 100%;
+    pointer-events: none;
+    display: block;
+}
+.cursor-line {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background-color: red; /* Adjust the color as needed */
+    pointer-events: none;
+}
